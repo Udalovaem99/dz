@@ -55,4 +55,6 @@ def test_form_fill():
         )
     for elem in success_elements:
         assert (elem.value_of_css_property("color")) == 'rgba(15, 81, 50, 1)'
-    driver.quit()
+
+
+driver.quit()

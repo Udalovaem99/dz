@@ -70,7 +70,7 @@ def main(driver):
 
 
 def test_buy():
-    driver = webdriver.Chrome()
+    driver = webdriver.Firefox()
     total = main(driver)
     driver.quit()
     assert total == 'Total: $58.29'
